@@ -1,5 +1,4 @@
 import './App.css';
-
 import React, { Component } from 'react'
 import Navbar from './component/Navbar';
 // import News apiKey = {apiKey}Modern from './component/News apiKey = {apiKey}Modern';
@@ -13,7 +12,8 @@ import News from './component/News';
 
 
 export default class App extends Component {
-  apiKey = process.env.REACT_APP_api;
+  apiKey = process.env.REACT_APP_NEWS_API
+  // apikey = "24a19b7e2ad24a31b04e9e84f379f39e";
   // Must start with REACT_APP_ in .env.local file 
   render() {
     return (
